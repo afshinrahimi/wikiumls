@@ -13,9 +13,16 @@ gold values cui:wikiid partitioned into trianing, dev, and test collected from w
 
 https://uq-my.sharepoint.com/:u:/g/personal/uqarahi2_uq_edu_au/EYbzkYFxraJKrUaEZe-GG4IBHLl05a6d1KQqN-SMXDOJJw?e=TuNrm1
 
-# Test set BERT-style two sentence binary classification (relevant or not)
+Training, dev, and test data containing cuialias1, cuialias2, ....  \t wikialias1, wikialias2, .... \t label (0 or 1)
+that can be used to train and evaluate an alignment model.
+
+https://uq-my.sharepoint.com/:u:/g/personal/uqarahi2_uq_edu_au/EZcr7S60QaVAn1q1YCfjRYwBiqcrcidrb8wSfX7PnWcoPQ?e=3ee5sN
+
+# UMLS to Wiki candidates BERT-style two sentence binary classification (relevant or not)
 
 It contain: cuialias1, cuialias2, ....  \t wikialias1, wikialias2, ....
+The trained model is used to make predictions on 700k UMLS CUIs against Wiki candidates.
+This is the 700k * 64 candidate set, so it is big. There is no golden alignment for this set.
 
 https://uq-my.sharepoint.com/:u:/g/personal/uqarahi2_uq_edu_au/EdfgcJf31u1IjJ6PGw9ADt0BdIfB_UOtY-4wh50Qy3An-g?e=ACBshg
 
