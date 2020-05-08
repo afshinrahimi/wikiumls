@@ -1,4 +1,4 @@
-# WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking (still under construction)
+# WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking (under construction)
 
 
 # Neurally ranked candidates 
@@ -20,6 +20,7 @@ It contain: cuialias1, cuialias2, ....  \t wikialias1, wikialias2, ....
 https://uq-my.sharepoint.com/:u:/g/personal/uqarahi2_uq_edu_au/EdfgcJf31u1IjJ6PGw9ADt0BdIfB_UOtY-4wh50Qy3An-g?e=ACBshg
 
 
-#Code
+# Code
 
 Most code is used for preprocessing of the dataset, otherwise, you can use BERT to train the two sentence classification.
+You can download the dataset from here, a Wikidata dump, UMLS (to extract aliases), and benchmark your alignment model.
