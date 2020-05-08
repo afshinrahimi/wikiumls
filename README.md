@@ -24,3 +24,5 @@ https://uq-my.sharepoint.com/:u:/g/personal/uqarahi2_uq_edu_au/EdfgcJf31u1IjJ6PG
 
 Most code is used for preprocessing of the dataset, otherwise, you can use BERT to train the two sentence classification.
 You can download the dataset from here, a Wikidata dump, UMLS (to extract aliases), and benchmark your alignment model.
+
+To generate candidates, UMLS CUI aliases are used as query against aliases + Wikipedia page text (if existed, many wikidata items have no wikipedia page). Index is built using https://github.com/lemire/IndexWikipedia.
