@@ -36,5 +36,8 @@ https://uq-my.sharepoint.com/:u:/g/personal/uqarahi2_uq_edu_au/EfJiV-Y6f0FAjLVNp
 # Code
 
 Most code is used for preprocessing of the dataset, otherwise, you can use BERT to train the two sentence classification.
-You can download the dataset from here, a Wikidata dump, UMLS (to extract aliases), and benchmark your alignment model.
+You can download the dataset from here, a Wikidata dump, a Wikipedia dump, and UMLS (to extract CUI aliases) or you can download the preprocessed training files with content above with 0 or 1 relevance scores to benchmark your alignment model.
+
+# Future work
+We did not use Wikipedia text for the final neural reranking, because we wanted our model to generalise on all Wikidata where Wikipedia text for most entities is not available. The relationship between entities exists both in UMLS and Wikidata, we did not use those relations for alignment, the use of which can potentially improve the alignment.
 
