@@ -24,6 +24,7 @@ It contain: cuialias1, cuialias2, ....  \t wikialias1, wikialias2, ....
 The trained model is used to make predictions on 700k UMLS CUIs against Wiki candidates.
 This is the 700k * 64 candidate set, so it is big. There is no golden alignment for this set.
 
+Download [here][https://uq-my.sharepoint.com/:u:/g/personal/uqarahi2_uq_edu_au/EdfgcJf31u1IjJ6PGw9ADt0BdIfB_UOtY-4wh50Qy3An-g?e=ACBshg]
 https://uq-my.sharepoint.com/:u:/g/personal/uqarahi2_uq_edu_au/EdfgcJf31u1IjJ6PGw9ADt0BdIfB_UOtY-4wh50Qy3An-g?e=ACBshg
 
 # Candidates
