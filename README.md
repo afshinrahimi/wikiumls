@@ -44,3 +44,12 @@ Most of the code is used for preprocessing of the dataset (Wikipedia, Wikidata, 
 # Future work
 We did not use Wikipedia text for the final neural reranking, because we wanted our model to generalise on all Wikidata where Wikipedia text for most entities is not available. The relationship between entities exists both in UMLS and Wikidata, we did not use those relations for alignment, the use of which can potentially improve the alignment.
 
+# Citation
+```
+@article{rahimi2020wikiumls,
+  title={WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking},
+  author={Rahimi, Afshin and Baldwin, Timothy and Verspoor, Karin},
+  journal={arXiv preprint arXiv:2005.01281},
+  year={2020}
+}
+```
