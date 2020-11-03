@@ -13,6 +13,8 @@ Gold values cui:wikiid partitioned into trianing, dev, and test collected from w
 
 Download [here](https://drive.google.com/file/d/1W6ACUp5X4c4M0ER12CHGAUDW4m_aTfrB/view?usp=sharing).
 
+convert wiki page id (e.g. 17524) into a wikipedia title using https://en.wikipedia.org/w/api.php?action=query&prop=info&pageids=17524&inprop=url for one record. For batch conversion, use a Wikipedia dump.
+
 Training, dev, and test data containing cuialias1, cuialias2, ....  \t wikialias1, wikialias2, .... \t label (0 or 1)
 that can be used to train and evaluate an alignment model.
 
