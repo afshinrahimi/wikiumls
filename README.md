@@ -1,11 +1,7 @@
 # WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking (under construction)
 
 
-# Neurally reranked candidates
 
-JSON file in the form of cui:[wikiid1, ....] that can be used for manual aligning of cui to wikipedia/wikidata
-
-Download [here](https://drive.google.com/open?id=12EGrZr1KFcFS9UwFCTnf_--XUCqW1yf9).
 
 # Dataset 
 
@@ -34,10 +30,16 @@ To generate candidates, UMLS CUI aliases are used as query against aliases + Wik
 Download [here](https://drive.google.com/file/d/1mYetd62m_wEMZ4L93OQyZUiAe4GyRCIm/view?usp=sharing).
 
 
+# Neurally reranked Wikipedia pages for 700k UMLS CUIs
+
+JSON file in the form of cui:[wikiid1, wikiid2, ....] that can be used for manual alignment of cui to wikipedia/wikidata. These are the result of running our model on all UMLS cocepts covered in SNOMED. We have not evaluated our model on this set as no ground truth exists.
+
+Download [here](https://drive.google.com/open?id=12EGrZr1KFcFS9UwFCTnf_--XUCqW1yf9).
+
 # Code
 
-Most of the code is used for preprocessing of the dataset (Wikipedia, MRCONSO), otherwise, you can use BERT to train a two sentence classification model.
-You can download the dataset from here, a Wikidata dump, a Wikipedia dump, and UMLS (to extract CUI aliases) or you can download the preprocessed training files with content above with 0 or 1 relevance scores to benchmark your alignment model.
+Most of the code is used for preprocessing of the dataset (Wikipedia, Wikidata, and MRCONSO.RFF), otherwise, you can use BERT to train a two sentence classification model on the dataset available here.
+
 
 # Future work
 We did not use Wikipedia text for the final neural reranking, because we wanted our model to generalise on all Wikidata where Wikipedia text for most entities is not available. The relationship between entities exists both in UMLS and Wikidata, we did not use those relations for alignment, the use of which can potentially improve the alignment.
