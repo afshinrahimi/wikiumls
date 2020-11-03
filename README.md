@@ -22,7 +22,7 @@ label \t CUI \t wikiID \t UMLS_aliases \t Wiki_aliases
 ```
 
 
-Training, dev, and test data containing are available [here] (https://drive.google.com/file/d/1Y2gbF8xpc9YhJXMEyvdymAweCdNKdHzQ/view?usp=sharing).
+Training, dev, and test data containing are available [here](https://drive.google.com/file/d/1Y2gbF8xpc9YhJXMEyvdymAweCdNKdHzQ/view?usp=sharing).
 that can be used to train and evaluate an alignment model.
 
 Download [here](https://drive.google.com/file/d/1Y2gbF8xpc9YhJXMEyvdymAweCdNKdHzQ/view?usp=sharing).
